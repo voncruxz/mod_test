@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<ThingDef>
+<ThingDef Name="base_tool" Abstract="True">
     <ThingClass>ThingWithComp</ThingClass>
+    <Category>Item</Category>
+    
