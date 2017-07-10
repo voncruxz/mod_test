@@ -4,4 +4,30 @@
 <ThingDef Name="base_tool" Abstract="True">
     <ThingClass>ThingWithComp</ThingClass>
     <Category>Item</Category>
-    
+    <equipmentType>Primary</equipmentType>
+    <pathCost>10</pathCost>
+    <useHitPoints>True</useHitPoints>
+    <selectable>True</selectable>
+    <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <Flammability>1.0</Flammability>
+        <DeteriorationRate>2</DeteriorationRate>
+        <SellPriceFactor>0.5</SellPriceFactor>
+	</statBases>
+	<altitudeLayer>Item</altitudeLayer>
+	<alwaysHaulable>True</alwaysHaulable>
+	<tickerType>Never</tickerType>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Things for the other parents
+	techlevel
+	
