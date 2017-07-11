@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef Parent="BaseToolBasic">
+	<defName>Axe</defName>
+	<label>Axe</label>
+	<description>A basic Axe used to chop down trees</description>
+	
+	<graphicData>
+		<textpath></textpath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	
+	<thingCategories>
+		<li>Apparel</li>
+	</thingCategories>
+	
+	<recipeMaker>
+		<researchPrerequisite></researchPrerequisite>
+	</recipeMaker>
+	
+	
+</ThingDef>
