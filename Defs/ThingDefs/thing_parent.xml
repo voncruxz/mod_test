@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<ThingDef Name="base_tool" Abstract="True">
+<ThingDef Name="BaseTool" Abstract="True">
     <ThingClass>ThingWithComp</ThingClass>
     <Category>Item</Category>
     <equipmentType>Primary</equipmentType>
@@ -17,9 +17,32 @@
 	<altitudeLayer>Item</altitudeLayer>
 	<alwaysHaulable>True</alwaysHaulable>
 	<tickerType>Never</tickerType>
+	<thingCategories>
+		<li>Items</li>
+	</thingCategories>
+	<comps>
+		<li>
+			<compClass>CompEquippable</compClass>
+		</li>
+		<li>
+			<compClass>CompQuality</compClass>
+		</li>
+	</comps>
+</ThingDef>
 	
-	
-	
+<ThingDef Name="BaseToolBasic" Abstract="True">
+	<recipeMaker>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Smith</soundWorking>
+		<recipeUsers>
+			<li>CraftingSpot</li>
+			<li>FueledSmithy</li>
+			<li>ElectricSmithy</li>
+		</recipeUsers>
+		<unfinishedThingDef>UnfinishedBasicTool</unfinishedThingDef>
+	</recipeMaker>	
 	
 	
 	
