@@ -65,8 +65,8 @@
 		<unfinishedThingDef>UnfinishedAdvancedTool</unfinishedThingDef>
 	</recipeMaker>
 	<statBases>
-		<MarketValue>350</MarketValue>
-		<Mass>6</Mass>
+		<MarketValue>600</MarketValue>
+		<Mass>5</Mass>
 	</statBases>
 	
 <ThingDef Name="BaseToolBelt" Parent="BaseTool" Abstract="True">
@@ -81,8 +81,8 @@
 		<unfinishedThingDef>UnfinishedToolbelt</unfinishedThingDef>
 	</recipeMaker>
 	<statBases>
-		<MarketValue>350</MarketValue>
-		<Mass>6</Mass>
+		<MarketValue>1000</MarketValue>
+		<Mass>4</Mass>
 	</statBases>
 	
 	
