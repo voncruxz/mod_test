@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<!--Base Parent-->
+	
 <ThingDef Name="BaseTool" Abstract="True">
     <ThingClass>ThingWithComp</ThingClass>
     <Category>Item</Category>
@@ -29,8 +31,10 @@
 		</li>
 	</comps>
 </ThingDef>
+
+	<!--Specific Parents-->
 	
-<ThingDef Name="BaseToolBasic" Abstract="True">
+<ThingDef Name="BaseToolBasic" Parent="BaseTool" Abstract="True">
 	<recipeMaker>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>
@@ -42,15 +46,51 @@
 			<li>ElectricSmithy</li>
 		</recipeUsers>
 		<unfinishedThingDef>UnfinishedBasicTool</unfinishedThingDef>
-	</recipeMaker>	
+	</recipeMaker>
+	<statBases>
+		<MarketValue>350</MarketValue>
+		<Mass>6</Mass>
+	</statBases>
+
+<ThingDef Name="BaseToolAdvanced" Parent="BaseTool" Abstract="True">
+	<recipeMaker>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Smith</soundWorking>
+		<recipeUsers>
+			<li>CraftingSpot</li>
+			<li>FueledSmithy</li>
+			<li>ElectricSmithy</li>
+		</recipeUsers>
+		<unfinishedThingDef>UnfinishedBasicTool</unfinishedThingDef>
+	</recipeMaker>
+	<statBases>
+		<MarketValue>350</MarketValue>
+		<Mass>6</Mass>
+	</statBases>
+	
+<ThingDef Name="BaseToolBelt" Parent="BaseTool" Abstract="True">
+	<recipeMaker>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<workSkill>Crafting</workSkill>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Smith</soundWorking>
+		<recipeUsers>
+			<li>CraftingSpot</li>
+			<li>FueledSmithy</li>
+			<li>ElectricSmithy</li>
+		</recipeUsers>
+		<unfinishedThingDef>UnfinishedBasicTool</unfinishedThingDef>
+	</recipeMaker>
+	<statBases>
+		<MarketValue>350</MarketValue>
+		<Mass>6</Mass>
+	</statBases>
 	
 	
-	
-	
-	
-	
-	
-	
-Things for the other parents
-	techlevel
-	
+	<!--Things to balance
+			Weight
+			Value
+	-->
+
