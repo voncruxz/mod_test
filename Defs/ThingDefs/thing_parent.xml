@@ -59,11 +59,10 @@
 		<effectWorking>Smith</effectWorking>
 		<soundWorking>Recipe_Smith</soundWorking>
 		<recipeUsers>
-			<li>CraftingSpot</li>
 			<li>FueledSmithy</li>
 			<li>ElectricSmithy</li>
 		</recipeUsers>
-		<unfinishedThingDef>UnfinishedBasicTool</unfinishedThingDef>
+		<unfinishedThingDef>UnfinishedAdvancedTool</unfinishedThingDef>
 	</recipeMaker>
 	<statBases>
 		<MarketValue>350</MarketValue>
@@ -77,11 +76,9 @@
 		<effectWorking>Smith</effectWorking>
 		<soundWorking>Recipe_Smith</soundWorking>
 		<recipeUsers>
-			<li>CraftingSpot</li>
-			<li>FueledSmithy</li>
-			<li>ElectricSmithy</li>
+			<li>TableMachining</li>
 		</recipeUsers>
-		<unfinishedThingDef>UnfinishedBasicTool</unfinishedThingDef>
+		<unfinishedThingDef>UnfinishedToolbelt</unfinishedThingDef>
 	</recipeMaker>
 	<statBases>
 		<MarketValue>350</MarketValue>
