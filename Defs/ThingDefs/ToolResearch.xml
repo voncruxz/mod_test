@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ResearchProjectDef>
+	<defName>ToolBasic</defName>
+	<label>Basic Tools</label>
+	<description>Develop the knowledge to make simple tools to improve productivity.</description>
+	<baseCost>400</baseCost>
+	<techLevel>Neolithic</techLevel>
+	<prerequisites>
+		<li></li>
+	</prerequisites>
+	<tab>ToolTab</tab>
+	<tags>
+		<li>ClassicStart</li>
+	</tags>
+</ResearchProjectDef>
+
+<ResearchProjectDef>
+	<defName>ToolAdvanced</defName>
+	<label>Improved Tools</label>
+	<description>Develop the knowledge to make more advanced tools to improve productivity.</description>
+	<baseCost>800</baseCost>
+	<techLevel>Medieval</techLevel>
+	<prerequisites>
+		<li>ToolBasci</li>
+		<li></li>
+	</prerequisites>
+	<tab>ToolTab</tab>
+</ResearchProjectDef>
+
+<ResearchProjectDef>
+	<defName>ToolBelt</defName>
+	<label>Toolbelts</label>
+	<description>Develop the knowledge to make a multitude of tools to help boost productivity, neatly packed in a toolbelt</description>
+	<baseCost>1400</baseCost>
+	<techLevel>Industrial</techLevel>
+	<prerequisites>
+		<li>ToolAdvanced</li>
+	</prerequisites>
+	<tab>ToolTab</tab>
+</ResearchProjectDef>
+
+<ResearchProjectDef>
+	<defName>ToolBeltAdvanced</defName>
+	<label>Miniaturized Tools</label>
+	<description>Unlocks the ability to make miniaturised tools for an advanced multipurpose toolbelt, boosting the productivity in multiple areas.</description>
+	<baseCost>2200</baseCost>
+	<techLevel>Spacer</techLevel>
+	<prerequisites>
+		<li>ToolBelt</li>
+	</prerequisites>
+	<tab>ToolTab</tab>
+</ResearchProjectDef>
