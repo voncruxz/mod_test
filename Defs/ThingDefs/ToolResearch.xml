@@ -2,7 +2,7 @@
 <Defs>
 
 <ResearchProjectDef>
-	<defName>ToolBasic</defName>
+	<defName>ToolBasicResearch</defName>
 	<label>Basic Tools</label>
 	<description>Develop the knowledge to make simple tools to improve productivity.</description>
 	<baseCost>400</baseCost>
@@ -17,7 +17,7 @@
 </ResearchProjectDef>
 
 <ResearchProjectDef>
-	<defName>ToolAdvanced</defName>
+	<defName>ToolAdvancedResearch</defName>
 	<label>Improved Tools</label>
 	<description>Develop the knowledge to make more advanced tools to improve productivity.</description>
 	<baseCost>800</baseCost>
@@ -30,7 +30,7 @@
 </ResearchProjectDef>
 
 <ResearchProjectDef>
-	<defName>ToolBelt</defName>
+	<defName>ToolBeltResearch</defName>
 	<label>Toolbelts</label>
 	<description>Develop the knowledge to make a multitude of tools to help boost productivity, neatly packed in a toolbelt</description>
 	<baseCost>1400</baseCost>
@@ -42,7 +42,7 @@
 </ResearchProjectDef>
 
 <ResearchProjectDef>
-	<defName>ToolBeltAdvanced</defName>
+	<defName>ToolBeltAdvancedResearch</defName>
 	<label>Miniaturized Tools</label>
 	<description>Unlocks the ability to make miniaturised tools for an advanced multipurpose toolbelt, boosting the productivity in multiple areas.</description>
 	<baseCost>2200</baseCost>
