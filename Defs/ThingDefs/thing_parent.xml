@@ -53,6 +53,10 @@
 		<Mass>6</Mass>
 		<WorkToMake>700</WorkToMake>
 	</statBases>
+	<recipeMaker>
+		<researchPrerequisite>ToolBasicResearch</researchPrerequisite>
+	</recipeMaker>
+</Thingdef>
 
 <ThingDef Name="BaseToolAdvanced" Parent="BaseTool" Abstract="True">
 	<recipeMaker>
@@ -71,6 +75,10 @@
 		<Mass>5</Mass>
 		<WorkToMake>1000</WorkToMake>
 	</statBases>
+	<recipeMaker>
+		<researchPrerequisite>ToolAdvancedResearch</researchPrerequisite>
+	</recipeMaker>
+</Thingdef>
 	
 <ThingDef Name="BaseToolBelt" Parent="BaseTool" Abstract="True">
 	<recipeMaker>
@@ -88,7 +96,10 @@
 		<Mass>4</Mass>
 		<WorkToMake>1500</WorkToMake>
 	</statBases>
-	
+	<recipeMaker>
+		<researchPrerequisite>ToolBeltResearch</researchPrerequisite>
+	</recipeMaker>
+</Thingdef>
 </Defs>
 	
 	<!--Things to balance
