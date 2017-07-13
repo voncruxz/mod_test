@@ -56,6 +56,15 @@
 	<recipeMaker>
 		<researchPrerequisite>ToolBasicResearch</researchPrerequisite>
 	</recipeMaker>
+	
+	<costList>
+		<Woody>20</Woody>
+	</costList>
+	<costStuffCount>30</costStuffCount>
+	<stuffCategories>
+		<li>Metallic</li>
+		<li>Stony</li>
+	</stuffCategories>
 </Thingdef>
 
 <ThingDef Name="BaseToolAdvanced" Parent="BaseTool" Abstract="True">
@@ -78,6 +87,14 @@
 	<recipeMaker>
 		<researchPrerequisite>ToolAdvancedResearch</researchPrerequisite>
 	</recipeMaker>
+	
+	<costList>
+		<Woody>35</Woody>
+	</costList>
+	<costStuffCount>50</costStuffCount>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
 </Thingdef>
 	
 <ThingDef Name="BaseToolBelt" Parent="BaseTool" Abstract="True">
@@ -99,6 +116,16 @@
 	<recipeMaker>
 		<researchPrerequisite>ToolBeltResearch</researchPrerequisite>
 	</recipeMaker>
+
+	<costList>
+		<Woody>35</Woody>
+		<Components>2</Components>
+		<Fabric>20</Fabric>
+	</costList>
+	<costStuffCount>80</costStuffCount>
+	<stuffCategories>
+		<li>Metallic</li>
+	</stuffCategories>
 </Thingdef>
 </Defs>
 	
