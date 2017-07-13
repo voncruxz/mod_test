@@ -53,18 +53,6 @@
 		<Mass>6</Mass>
 		<WorkToMake>700</WorkToMake>
 	</statBases>
-	<recipeMaker>
-		<researchPrerequisite>ToolBasicResearch</researchPrerequisite>
-	</recipeMaker>
-	
-	<costList>
-		<Woody>20</Woody>
-	</costList>
-	<costStuffCount>30</costStuffCount>
-	<stuffCategories>
-		<li>Metallic</li>
-		<li>Stony</li>
-	</stuffCategories>
 </Thingdef>
 
 <ThingDef Name="BaseToolAdvanced" Parent="BaseTool" Abstract="True">
@@ -84,17 +72,6 @@
 		<Mass>5</Mass>
 		<WorkToMake>1000</WorkToMake>
 	</statBases>
-	<recipeMaker>
-		<researchPrerequisite>ToolAdvancedResearch</researchPrerequisite>
-	</recipeMaker>
-	
-	<costList>
-		<Woody>35</Woody>
-	</costList>
-	<costStuffCount>50</costStuffCount>
-	<stuffCategories>
-		<li>Metallic</li>
-	</stuffCategories>
 </Thingdef>
 	
 <ThingDef Name="BaseToolBelt" Parent="BaseTool" Abstract="True">
@@ -107,25 +84,13 @@
 			<li>TableMachining</li>
 		</recipeUsers>
 		<unfinishedThingDef>UnfinishedToolbelt</unfinishedThingDef>
+		<researchPrerequisite>ToolBeltResearch</researchPrerequisite>
 	</recipeMaker>
 	<statBases>
 		<MarketValue>1000</MarketValue>
 		<Mass>4</Mass>
 		<WorkToMake>1500</WorkToMake>
 	</statBases>
-	<recipeMaker>
-		<researchPrerequisite>ToolBeltResearch</researchPrerequisite>
-	</recipeMaker>
-
-	<costList>
-		<Woody>35</Woody>
-		<Components>2</Components>
-		<Fabric>20</Fabric>
-	</costList>
-	<costStuffCount>80</costStuffCount>
-	<stuffCategories>
-		<li>Metallic</li>
-	</stuffCategories>
 </Thingdef>
 </Defs>
 	
