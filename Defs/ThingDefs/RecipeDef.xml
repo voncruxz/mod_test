@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+
+<RecipeDef>
+	<defName>ToolsMakeAxe</defName>
+	<label>Craft an Axe</label>
+	<description>Use wood and metal or stone to make a simple axe.</description>
+	<jobString>Crafting tool</jobString>
+	<workAmount>2000</workAmount>
+	<workSpeedStat>SmeltingSpeed</workSpeedStat>
+	<effectWorking>Smelt</effectWorking>
+	<soundWorking>Recipe_Smelt</soundWorking>
+	<recipeUsers>
+		<li>CraftingSpot</li>
+		<li>FueledSmithy</li>
+		<li>ElectricSmithy</li>
+	</recipeUsers>
+	<ingredients>
+		<li>
+			<filter>
+				<categories>
+					<li>Metallic</li>
+					<li>Stony</li>
+				</categories>
+			</filter>
+			<count>30</count>
+		</li>
+		<li>
+			<filter>
+				<categories>
+					<li>Woody</li>
+				</categories>
+			</filter>
+			<count>20</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li></li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<products>
+		
+	</products>
+	<skillRequirements>
+		<li>
+			<skill></skill>
+			<minLevel></minLevel>
+		</li>
+	</skillRequirements>
+	<workSkill></workSkill>
+</RecipeDef>å
